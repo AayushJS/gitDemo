@@ -12,6 +12,7 @@ class Ground {
       var pos =this.body.position;
       rectMode(CENTER);
       fill("brown");
+      stroke("black")
       rect(pos.x, pos.y, this.width, this.height);
     }
   };
